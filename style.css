@@ -7,14 +7,10 @@ body {
     margin:10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
 }
 
-section {
-    border:4px solid green;
-    min-height:100px;
-}
+
+
 
 
 header, main, footer {
@@ -38,4 +34,49 @@ header, main, footer {
 
 .header-items-left {
     font-weight: 800;
+}
+
+
+section {
+    border:4px solid green;
+    min-height:100px;
+
+}
+
+.first-section{
+    display: flex;  
+    text-align: center;  
+}
+
+.first-section-header {
+    margin:0px;
+    
+}
+
+.first-section-paragraph {
+    margin:0px 0px 0px 0px;
+}
+
+.first-section-button {
+    width: 30%;
+    margin: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(76, 132, 193);
+    padding: 8px;
+}
+
+.website-is-awesome {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.awesome-picture {
+    background-color: aliceblue;
+    flex: 50%;
+
+
 }
