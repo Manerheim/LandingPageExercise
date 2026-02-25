@@ -102,8 +102,10 @@ section {
 
 .box-row {
     display: flex;
-    width: 60%;
+    width: 100%;
     justify-self: center;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .box-container {
